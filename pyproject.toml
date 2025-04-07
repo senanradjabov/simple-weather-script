@@ -1,0 +1,18 @@
+[project]
+name = "weather"
+version = "0.1.0"
+description = "Weather by IP"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.32.3",
+    "types-requests>=2.32.0.20250328",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "mypy>=1.15.0",
+    "ruff>=0.11.4",
+]
